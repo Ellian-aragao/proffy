@@ -80,12 +80,12 @@ function TeacherForm() {
         <footer>
           <p>
             <img src={warningIcon} alt="Aviso importante" />
-            Importante <br />
+            Importante! <br />
             Preencha todos os dados!
+          </p>
             <button type="button">
               Salvar Cadastro
             </button>
-          </p>
         </footer>
       </main>
 

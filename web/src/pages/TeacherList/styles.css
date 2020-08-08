@@ -4,7 +4,7 @@
 }
 
 #search-teachers {
-  margin-top: 3.2rem;
+  margin: 3rem;
 }
 
 #search-teachers label {
@@ -43,11 +43,12 @@
   }
 
   #search-teachers {
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     column-gap: 16px;
-    position: absolute;
-    bottom: -28px;
+    position: relative;
+    bottom: -2.5rem;
   }
 
   #search-teachers .select-block+.select-block {
