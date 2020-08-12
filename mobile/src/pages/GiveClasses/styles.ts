@@ -5,7 +5,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#8257E5',
     justifyContent: 'center',
-    padding: 40,
+    padding: 30,
   },
 
   content: {
@@ -22,28 +22,28 @@ const styles = StyleSheet.create({
   },
 
   description: {
-    marginTop: 24,
-    color: '#d4c2ff',
+    fontFamily: 'Poppins_400Regular',
+    color: '#D4C2FF',
     fontSize: 16,
     lineHeight: 26,
-    fontFamily: 'Poppins_400Regular',
+    marginTop: 24,
     maxWidth: 240,
   },
 
   okButton: {
+    backgroundColor: '#04D361',
     marginVertical: 40,
-    backgroundColor: '#04d361',
     height: 58,
-    alignItems: 'center',
-    justifyContent: 'center',
     borderRadius: 8,
+    alignItems: 'center',
+    justifyContent: 'center'
   },
 
   okButtonText: {
-    color: '#FFF',
-    fontSize: 16,
     fontFamily: 'Archivo_700Bold',
-  },
+    fontSize: 16,
+    color: '#FFF',
+  }
 });
 
 export default styles;
